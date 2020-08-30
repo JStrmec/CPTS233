@@ -2,23 +2,22 @@ package AssigmentCarpets;
 import java.util.*;
 
 public class clientCarpetClass {	
-	double w,l;
+	double c;
 	public static void main(String [] args) {
 		
 		RoomCarpet rc = new RoomCarpet();
 		RoomDimension rd = new RoomDimension();
 		try (Scanner input = new Scanner(System.in)) {
 			System.out.println("What is the width of the room you are carpeting?");
-			w = input.nextDouble();
-			rd.width = w;
+			rd.width = input.nextDouble();
 			System.out.println("What is the length of the room you are carpeting?");
-			l =input.nextDouble();
-			rd.length = l;
+			rd.length =input.nextDouble();
 			System.out.println("What is the desired cost per square foor of carpet?");
-			rc.CarpetCost = input.nextDouble();
+			c = input.nextDouble();
+			rc.CarpetCost = c;
 		}
 		
-		System.out.println("The total cost of the carpet is" + rc.getTotalCost);
+		System.out.println("The total cost of the carpet is" + rc.getTotalCost(c,rd.getArea()));
 
 	}
 
