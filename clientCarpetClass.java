@@ -2,6 +2,8 @@ package AssigmentCarpets;
 /** Jocelyn Strmec
  * Aug 30,2020
  * Assignment 1 Carpet Calculator
+ * CPTS 233: MicroAssignment 1
+ * Github URL: https://github.com/Strmec01/CPTS233.git
  */
 import java.util.*;
 
