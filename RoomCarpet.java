@@ -1,5 +1,8 @@
 package AssigmentCarpets;
-
+/** Jocelyn Strmec
+ * Aug 30,2020
+ * Assignment 1 Carpet Calculator
+ */
 public class RoomCarpet {
 	public double area;
 	public double carpetCost
