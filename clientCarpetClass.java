@@ -16,7 +16,7 @@ public class clientCarpetClass {
 			c = input.nextDouble();
 			rc.CarpetCost = c;
 		}
-		
+		input.close;
 		System.out.println("The total cost of the carpet is" + rc.getTotalCost(c,rd.getArea()));
 
 	}
